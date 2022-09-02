@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jivtesh's Portfolio</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" href="./img/faviconJR.ico">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="nav bd_grid">
+            <div>
+                <a href="index.html" class="nav_logo">Jivtesh Raj</a>
+            </div>
+
+            <div class="nav_menu" id="nav_menu">
+                <ul class="nav_list">
+                    <li class="nav_items">
+                        <a href="#home" class="nav_link active">Home</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="#about" class="nav_link active">About</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="#skills" class="nav_link active">Skills</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="#work" class="nav_link active">Projects</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="#about" class="nav_link active">Resume</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="#footer" class="nav_link active">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav_toggle" id="nav_toggle">
+                <i class="bx bx-menu-alt-right"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- HOME SECTION -->
+        <section class="home bd_grid" id="home">
+            <div class="home_data" data-aos="fade-down">
+                <h1 class="home_title">
+                    <span class="subheading">Hi There!</span> <br />I'm <span class="home_title-color">Jivtesh Raj
+                    </span><br /><span class="typewrite" data-period="2000"
+                        data-type='["A developer","A Web designer","I love to develop",] '>
+                        <span class="wrap"></span>
+                    </span>
+
+                </h1>
+                <a href="#footer" class="button"> Contact</a>
+            </div>
+
+            <div class="home_social">
+                <a href="https://www.linkedin.com/in/jivtesh-raj-0831231a0/" class="home_social-icon" target="_blank"><i
+                        class="bx bxl-linkedin"></i></a>
+                <!-- <a href="https://www.instagram.com/jivtesh_raj/" class="home_social-icon" target="_blank"><i
+                        class="bx bxl-instagram"></i></a> -->
+                <a href="https://www.twitter.com/notalefiya" class="home_social-icon" target="_blank"><i
+                        class="bx bxl-twitter"></i></a>
+                <a href="https://github.com/JivteshRaj" class="home_social-icon" target="_blank"><i
+                        class="bx bxl-github"></i></a>
+                <a href="mailto:alefiyaj605@gmail.com" class="home_social-icon" target="_blank"><i
+                        class="bx bx-envelope"></i></a>
+            </div>
+
+            <div class="home_img" data-aos="fade-down" data-aos-delay="500">
+                <img src="./img/Jivtesh.jpg">
+                <!-- <div class="frame">
+                    <img src="./img/Jivtesh.jpg">
+                </div> -->
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="about section" id="about">
+            <h2 class="section-title" data-aos="fade-down">About</h2>
+
+            <div class="about_container bd_grid">
+                <div class="about_img" data-aos="fade-down" data-aos-delay="50">
+                    <img src="./img/Inspiration.svg">
+                </div>
+
+                <div>
+                    <h2 class="about_subtitle" data-aos="fade-down" data-aos-delay="350">
+                        Hey, I'm Jivtesh Raj
+                    </h2>
+                    <p class="about_text" data-aos="fade-down" data-aos-delay="450">
+                        I'm an undergrad student currently pursuing a Bachelor's degree in Computer Science 👨‍💻 from
+                        Maharaja Agrasen Institute of Technology.<br>
+                        I'm currently seeking a job platform where
+                        I can utilize my skills and enhance learning in field works. With creative
+                        thinking, technical and writing skills, I can be relied upon to help your company achieve its
+                        goals.
+                    </p>
+                    <h3><a href="./img/Jivtesh Raj Resume 9599543313.pdf" target="_blank" class="link">View my Resume</a></h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section class="skills section" id="skills">
+            <h2 class="section-title" data-aos="fade-down">Professional Skills</h2>
+
+            <div class="skills_container bd_grid">
+                <div>
+                    <!-- SKILLS Web Dev -->
+                    <div class="skills_data" data-aos="fade-right">
+                        <div class="skills_name">
+                            <i class="bx bx-desktop skill_icon"></i>
+                            <span class="skill_name">Web Development</span>
+                        </div>
+                        <div><span class="skill_percentage">95%</span></div>
+                        <div class="skill_bar skill_webd"></div>
+                    </div>
+
+                    <!-- SKILLS Mobile -->
+                    <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+                        <div class="skills_name">
+                            <i class="bx bx-mobile-alt skill_icon"></i>
+                            <span class="skill_name">Mobile App Development</span>
+                        </div>
+                        <div><span class="skill_percentage">85%</span></div>
+                        <div class="skill_bar skill_mobd"></div>
+                    </div>
+
+                    <!-- SKILLS JS -->
+                    <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+                        <div class="skills_name">
+                            <i class="bx bxl-nodejs skill_icon"></i>
+                            <span class="skill_name">NodeJS</span>
+                        </div>
+                        <div><span class="skill_percentage">85%</span></div>
+                        <div class="skill_bar skill_nodejs"></div>
+                    </div>
+
+                    <!-- SKILLS Python -->
+                    <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+                        <div class="skills_name">
+                            <i class="bx bxl-python skill_icon"></i>
+                            <span class="skill_name">Python</span>
+                        </div>
+                        <div><span class="skill_percentage">75%</span></div>
+                        <div class="skill_bar skill_python"></div>
+                    </div>
+
+
+                </div>
+
+                <div data-aos="fade-left" data-aos-delay="350">
+                    <!-- SKILLS React -->
+                    <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+                        <div class="skills_name">
+                            <i class="bx bxl-react skill_icon"></i>
+                            <span class="skill_name">React</span>
+                        </div>
+                        <div><span class="skill_percentage">90%</span></div>
+                        <div class="skill_bar skill_react"></div>
+                    </div>
+
+                    <!-- SKILLS Git -->
+                    <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+                        <div class="skills_name">
+                            <i class="bx bxl-git skill_icon"></i>
+                            <span class="skill_name">Git</span>
+                        </div>
+                        <div><span class="skill_percentage">85%</span></div>
+                        <div class="skill_bar skill_git"></div>
+                    </div>
+
+                    <!-- Skills jquery -->
+                    <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+                        <div class="skills_name">
+                            <i class="bx bxl-jquery skill_icon"></i>
+                            <span class="skill_name">Jquery</span>
+                        </div>
+                        <div><span class="skill_percentage">80%</span></div>
+                        <div class="skill_bar skill_jquery"></div>
+                    </div>
+
+                    <!-- Skills C++ -->
+                    <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+                        <div class="skills_name">
+                            <i class="bx bx-code skill_icon"></i>
+                            <span class="skill_name">C++</span>
+                        </div>
+                        <div><span class="skill_percentage">75%</span></div>
+                        <div class="skill_bar skill_java"></div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- WORK SECTION -->
+        <section class="work section" id="work">
+            <h2 class="section-title" data-aos="fade-down">My Projects</h2>
+
+            <div class="work_container" data-aos="fade-down" data-aos-delay="250">
+                <div class="work_img">
+                    <div class="images">
+                        <img src="./img/work2.jpg" alt="" />
+                        <img src="./img/work2-2.jpg" alt="" />
+                    </div>
+                    <h3>Quizpicable Me</h3>
+                    <p>A responsive fun quiz app with various genres such as Entertainment, GK, Technology, Marvel
+                        etc made using Flutter that runs on Android and iOS both.</p>
+                    <a href="https://github.com/JivteshRaj" class="link" target="_blank">Source code &rarr;</a>
+                </div>
+
+                <div class="work_img">
+                    <div class="images">
+                        <img src="./img/work1.jpg" alt="" />
+                        <img src="./img/work1-2.jpg" alt="" />
+                    </div>
+                    <h3>Covid-19 Tracker</h3>
+                    <p>A responsive country-wise Covid-19 Tracker App made using Flutter using disease.sh
+                        API which shows daily and total recovered cases,active cases and deaths, along with
+                        a graphical representation of them. It works on Android and iOS both.</p>
+                    <a href="https://github.com/JivteshRaj" class="link" target="_blank">Source code
+                        &rarr;</a>
+
+                </div>
+
+                <!-- <div class="work_img">
+                    <img src="./assets/img/work3.png" alt="" />
+                    <h3>Online Bakery</h3>
+                    <p>An online responsive website for selling home made chocolates and bakery items made
+                        using HTML, CSS, Javascript and bootstrap. It also has order and contact forms.</p>
+                    <a href="https://github.com/Alefiya-J/OnlineBakery" class="link" target="_blank">Source code
+                        &rarr;</a>
+
+                </div> -->
+
+                <!-- <div class="work_img">
+                    <img src="./assets/img/work4.png" alt="" />
+                    <h3>Food catalogue</h3>
+                    <p>In this project, I created a food catalogue using HTML, CSS, React using Edmam API.
+                        The application allows one to view all the meals, search for a meal basing on the
+                        available categories, and view all the ingredients used to prepare the meal.</p>
+                    <a href="https://github.com/Alefiya-J/FoodCatalogue" class="link" target="_blank">Source code
+                        &rarr;</a>
+                </div>
+
+                <div class="work_img">
+                    <img src="./assets/img/work5.png" alt="" />
+                    <h3>Notes Keeper</h3>
+                    <p>This is a React web application where we can keep our notes and information.
+                        This web app helps in easy storing of notes for students and official workers.</p>
+                    <a href="https://github.com/Alefiya-J/Notes-Keeper" class="link" target="_blank">Source code
+                        &rarr;</a>
+                </div>
+
+                <div class="work_img">
+                    <img src="./assets/img/work6.png" alt="" />
+                    <h3>Task Tracker</h3>
+                    <p>This is a React web application where you can add you daily tasks, keep track of them
+                        and set reminder on it, and delete the task when done. It stores all tasks in a json file using
+                        REST API.</p>
+                    <a href="https://github.com/Alefiya-J/Task-Tracker" class="link" target="_blank">Source code
+                        &rarr;</a>
+                </div> -->
+
+            </div>
+            <h3><a href="https://github.com/JivteshRaj?tab=repositories" class="link" target="_blank">View more
+                    projects</a></h3>
+        </section>
+
+        <!-- CONTACT SECTION -->
+
+        <section class="contact section" id="contact">
+        <h2 class="section-title" data-aos="fade-down">Contact</h2>
+
+        <div class="contact_container bd_grid">
+        <form action="#" class="contact_form">
+            <input
+            type="text"
+            placeholder="Name"
+            class="control_input"
+            data-aos="fade-right"
+            data-aos-delay="250"
+            />
+            <input
+            type="mail"
+            placeholder="Email"
+            class="control_input"
+            data-aos="fade-right"
+            data-aos-delay="300"
+            />
+            <textarea
+            name=""
+            id=""
+            cols="0"
+            rows="10"
+            class="control_input"
+            data-aos="fade-right"
+            data-aos-delay="400"
+            ></textarea>
+
+            <input
+            type="button"
+            value="Send"
+            class="control_button button"
+            data-aos="fade-right"
+            data-aos-delay="450"
+            />
+        </form>
+        </div>
+    </section>
+
+        <!-- Footer Section -->
+        <footer class="footer" id="footer">
+            <p class="footer_title" data-aos="fade-down">Jivtesh Raj</p>
+
+            <div class="footer_socials">
+                <a href="https://www.linkedin.com/in/jivtesh-raj-0831231a0/" class="footer_icon" data-aos="fade-down" target="_blank"
+                    data-aos-delay="250"><i class="bx bxl-linkedin"></i></a>
+                <!-- <a href="https://www.instagram.com/alefiya_j/" class="footer_icon" data-aos="fade-down" target="_blank"
+                    data-aos-delay="350"><i class="bx bxl-instagram"></i></a> -->
+                <a href="https://twitter.com/JivteshR" class="footer_icon" data-aos="fade-down" target="_blank"
+                    data-aos-delay="450"><i class="bx bxl-twitter"></i></a>
+                <a href="https://github.com/JivteshRaj" class="footer_icon" data-aos="fade-down" data-aos-delay="550"
+                    target="_blank"><i class="bx bxl-github"></i></a>
+                <a href="mailto:jivteshraj@gmail.com" class="footer_icon" data-aos="fade-down" data-aos-delay="550"
+                    target="_blank"><i class="bx bx-envelope"></i></a>
+            </div>
+
+            <p data-aos="fade-down" data-aos-delay="150" class="copy">
+                &#169; 2021 all right reserved | Made by Jivtesh Raj
+            </p>
+        </footer>
+    </main>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/2.17.0/core.min.js"></script> -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./main.js"></script>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true,
+        });
+    </script>
+</body>
+
+</html>
